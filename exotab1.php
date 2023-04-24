@@ -1,6 +1,6 @@
 <?php
 $total=0;
-$notes = [];
+$notes=[];
 for($i=0;$i<3;$i++){
 $saisie = readline('notes:');
 $notes[$i]=$saisie;
