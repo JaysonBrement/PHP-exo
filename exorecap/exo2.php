@@ -1,4 +1,6 @@
 <?php
 require "fonction.php";
-randmessage();
+$nb=rand(0,20);
+randmessage($nb);
+
 ?>
